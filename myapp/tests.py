@@ -11,4 +11,4 @@ class SimpleTest(TestCase):
         client = Client()
         response = client.get('/health/')
         self.assertEqual(response.status_code, 200)
-        self.assertEqual(response.json()['health'], 'OK JAANU')
+        self.assertEqual(response.json()['health'], 'OK JAANU Ji')
